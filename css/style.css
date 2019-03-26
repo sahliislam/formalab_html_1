@@ -10,4 +10,13 @@ p.vert
 .bord{border:1px solid green; }
 a:hover {color:  red ;text-decoration: underline;}
 a:visited {color:grey;}
-
+{background-color:grey }
+body{border: red;
+    margin: 50px;
+    list-style-image: url(../image/1\ \(2\).jpg);
+    background-image: url(../image/formation-professionnelle-_l1.jpeg);
+}
+.lol{margin-left : 50% 
+}
+@media screen and (max-wegdth:767 px)
+{/*definir le code qui sera utilise*/}
