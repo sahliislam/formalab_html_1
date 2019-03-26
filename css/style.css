@@ -1,3 +1,10 @@
 *{color: red ;}
 .slouma{color: blue;}
 #sahmiislam{color: red;}
+.slouma{
+    color: blue;
+}
+p.vert
+{color: green;}
+.slouma{color: green;}
+.bord{border:1px solid green; }
