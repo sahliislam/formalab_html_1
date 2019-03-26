@@ -1,10 +1,12 @@
-*{color: red ;}
+
 .slouma{color: blue;}
-#sahmiislam{color: red;}
-.slouma{
+#sahliislam{color: red;}
+.bleu{
     color: blue;
 }
 p.vert
 {color: green;}
 .slouma{color: green;}
 .bord{border:1px solid green; }
+a:hover {color:  red ;text-decoration: underline;}
+a:visited {color:grey;}
