@@ -10,7 +10,7 @@ p.vert
 .bord{border:1px solid green; }
 a:hover {color:  red ;text-decoration: underline;}
 a:visited {color:grey;}
-{background-color:grey }
+
 body{border: red;
     margin: 50px;
     list-style-image: url(../image/1\ \(2\).jpg);
