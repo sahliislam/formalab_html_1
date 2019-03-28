@@ -1,19 +1,16 @@
+console.log('bienvenue au jeu');
+var sol=Math.floor(Math.random()*100)+1;
 
-var nb = nb_aleatoire(1, 100);  // nb a deviner
-var cpt = 0;    // nb de coups
-var saisie;
-var msg = 'Le nombre à deviner est compris entre 1 et 100.';
-
-do
-{
-     saisie = prompt(msg);
-     cpt++;
-     // message a afficher au prochain tour :
-     if(saisie > nb)
-          msg = "C'est moins";
-     else
-          msg = "C'est plus";
+var tent=0;  // nb a deviner
+var nb=Number(prompt('donner un numero '));
+while((sol !== nb)&&(tent<8))
+{if(nb<sol)
+    {console.log('faux! vous avez donner un nbre plus petit');}
+else
+{console.log('faux! vous avez donner un nbre plus grand');}  
+tent++;
+var nb=Number(prompt('donner un numero '));
 }
-while(saisie != nb);
 
-alert("Bravo, tu as gagne en " + cpt + " coups !");
+if(nb==sol) {console.log('bravo');}
+else {console.log('vous ave perdu ');}
